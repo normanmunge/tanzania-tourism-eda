@@ -55,7 +55,35 @@ This repository is for beginner data analysts, data engineers and data scientist
 
 The repository contains:
 
-1. Datasets Directory - This directory holds our dataset - [Tanzania_Tourism_datasets.csv](/datasets/Tanzania_Tourism_datasets.csv, 'tanzania tourism dataset')
+1. Datasets Directory - This directory holds our dataset - [Tanzania_Tourism_datasets.csv](/datasets/Tanzania_Tourism_datasets.csv, 'tanzania tourism dataset') The notebook contains the columns below:
+
+- ID
+- Country
+- Age_group
+- Travel_with
+- Total_female
+- Total_male
+- Purpose
+- Main_activity
+- Info_source
+- Tour_arrangement
+<details>
+<summary>Click to view other columns!</summary>
+- Package_transport_int
+- Package_accomodation
+- Package_food
+- Package_transport_tz
+- Package_sightseeing
+- Package_guided_tour
+- Package_insurance
+- Night_mainland
+- Night_zanzibar
+- Payment_mode
+- First_trip_tz
+- Most_impressing
+- Total_cost
+</details>
+
 2. [Requirements.txt] (/requirements.txt) - Showing the necessary libraries and dependencies to run the notebook.
 3. Notebooks
    - [tanzanian_analysis notebook](tanzanian-analysis-eda.ipynb)

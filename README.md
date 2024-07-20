@@ -38,7 +38,7 @@ The challenge is sourced from [kaggle](https://www.kaggle.com/datasets/tevintemu
 
 ### 2.1. <a name='Objectives'></a>Objectives
 
-The [notebook](tanzania-tourism-eda/tanzanian-analysis-eda.ipynb) does an exploratory data analysis on the data using a pandas DataFrame. The objectives of the project is to:
+The [notebook](/tanzanian-analysis-eda.ipynb) does an exploratory data analysis on the data using a pandas DataFrame. The objectives of the project is to:
 
 1. Load the dataset from csv's
 2. Cleaning of the data - missing values, wrong values, duplicate values
@@ -55,12 +55,12 @@ This repository is for beginner data analysts, data engineers and data scientist
 
 The repository contains:
 
-1. Datasets Directory - This directory holds our dataset - [Tanzania_Tourism_datasets.csv](tanzania-tourism-eda/datasets/Tanzania_Tourism_datasets.csv, 'tanzania tourism dataset')
-2. [Requirements.txt] (tanzania-tourism-eda/requirements.txt) - Showing the necessary libraries and dependencies to run the notebook.
+1. Datasets Directory - This directory holds our dataset - [Tanzania_Tourism_datasets.csv](/datasets/Tanzania_Tourism_datasets.csv, 'tanzania tourism dataset')
+2. [Requirements.txt] (/requirements.txt) - Showing the necessary libraries and dependencies to run the notebook.
 3. Notebooks
    - [tanzanian_analysis notebook](tanzanian-analysis-eda.ipynb)
-4. [Gitignore File](tanzania-tourism-eda/.gitignore) - File to ignore files and directories from being pushed to the remote repository
-5. [README.md File](tanzania-tourism-eda/README.md) - Guiding instructions for describing and running the project.
+4. [Gitignore File](/.gitignore) - File to ignore files and directories from being pushed to the remote repository
+5. [README.md File](/README.md) - Guiding instructions for describing and running the project.
 
 ## 3. <a name='Settingupinyourlocalenvironment'></a>Setting up in your local environment
 
@@ -112,7 +112,7 @@ The important libraries used in this environment are:
 4. Seaborn - Used for visualization purposes to highlight discovered patterns in your dataset to stakeholders in form of graphs
 5. Jupyter lab - Used to run and experiment on your notebook in your local environment
 
-The above listed libraries are the core ones used in the repository. However, during installation you'll notice other dependencies installed that enable to work as expected. They are highlighted on the [requirement.txt](tanzania-tourism-eda/requirements.txt) file.
+The above listed libraries are the core ones used in the repository. However, during installation you'll notice other dependencies installed that enable to work as expected. They are highlighted on the [requirement.txt](/requirements.txt) file.
 
 ### 4.2. <a name='Installation'></a>Installation
 
@@ -141,4 +141,4 @@ jupyter lab *optional_file_name*
 ## 6. <a name='Disclaimer-useanalysiswithcaution'></a>Disclaimer - use analysis with caution ⚠️
 
 1. The dataset is purely for learning purposes and hasn't been verified hence it isn't advisable to use it in a business setting as it might contain a wrong depiction of the tourism sector in Tanzania.
-2. There are many ways to do the dataset wrangling other than the ones described in the (notebook)[data-science-projects/tanzania-tourism-eda/tanzanian-analysis-eda.ipynb].
+2. There are many ways to do the dataset wrangling other than the ones described in the (notebook)[data-science-projects//tanzanian-analysis-eda.ipynb].
